@@ -2,8 +2,6 @@
 
 At some point in my studies on mobile apps I would need to develop something, well, here we are.
 
-## What to expect from this repository?
-
 React Native mobile app, consuming data from one (or more) API to display the content in the tabs. Initially one screen to list the content, one to consume the content.
 Modular and Scalable? I hope so, but phase one is more about making it work.
 
