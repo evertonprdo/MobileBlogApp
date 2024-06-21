@@ -1,40 +1,23 @@
-import { View, StyleSheet } from "react-native";
+import { View } from "react-native";
 import type { ReactNode } from "react";
+
+import styles from "./styles";
 
 type MainTemplateProps = {
     header: ReactNode
     body: ReactNode
-    foot: ReactNode
-    children: ReactNode
 }
 
-export default function MainTemplate({ header, body, foot, children }: MainTemplateProps) {
+export default function MainTemplate({ header, body }: MainTemplateProps) {
     return (
-        <View style= {styles.flexCenter}>
-            <View style= {[styles.flexCenter, {backgroundColor: '#ddd'}]}>
+        <View style= {styles.mainContainer}>
+            <View style= { styles.headerContainer }>
                 { header }
             </View>
 
-            <View style= {[styles.flexCenter, {backgroundColor: '#fff'}]}>
+            <View style= { styles.bodyContainer }>
                 { body }
-            </View>
-
-            <View style= {[styles.flexCenter, {backgroundColor: '#aaa'}]}>
-                { foot }
-            </View>
-
-            <View style= {[styles.flexCenter, {backgroundColor: '#bbb'}]}>
-                { children }
             </View>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    flexCenter: {
-        flex: 1,
-        width: "100%",
-        justifyContent: 'center',
-        alignItems: 'center'
-    }
-})
