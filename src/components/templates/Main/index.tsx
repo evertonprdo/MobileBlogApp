@@ -5,10 +5,10 @@ import styles from "./styles";
 
 type MainTemplateProps = {
     header: ReactNode
-    body: ReactNode
+    children?: ReactNode
 }
 
-export default function MainTemplate({ header, body }: MainTemplateProps) {
+export default function MainTemplate({ header, children }: MainTemplateProps) {
     return (
         <View style= {styles.mainContainer}>
             <View style= { styles.headerContainer }>
@@ -16,7 +16,7 @@ export default function MainTemplate({ header, body }: MainTemplateProps) {
             </View>
 
             <View style= { styles.bodyContainer }>
-                { body }
+                { children }
             </View>
         </View>
     )

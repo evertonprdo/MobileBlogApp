@@ -2,8 +2,8 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     tabBarStyle: {
-        backgroundColor: "#000",
-        height: 57
+        backgroundColor: "#fff",
+        height: 57,
     },
     tabBarLabelStyle: {},
     tabBarIconStyle: {
@@ -11,8 +11,8 @@ export const styles = StyleSheet.create({
     },
     tabBarBadgeStyle: { },
     tabBarItemStyle: { 
-        backgroundColor: "#222",
+        backgroundColor: "#81cbe3",
         borderRadius: 25,
-        margin: 10
+        margin: 10,
     },
 })

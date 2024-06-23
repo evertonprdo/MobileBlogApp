@@ -15,7 +15,7 @@ const screenOptions: BottomTabNavigationOptions = {
     tabBarBadgeStyle: styles.tabBarBadgeStyle,
     tabBarItemStyle: styles.tabBarItemStyle,
 
-    tabBarActiveTintColor: "orange",
+    tabBarActiveTintColor: "#fff",
 }
 
 export default function TabLayout() {

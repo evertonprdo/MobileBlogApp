@@ -9,13 +9,13 @@ const styles = StyleSheet.create({
         height: 100,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#aaa'
+        backgroundColor: '#fff'
     },
     bodyContainer: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#ddd'
+        backgroundColor: '#e1e8e7'
     }
 })
 
