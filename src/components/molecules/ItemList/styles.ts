@@ -15,18 +15,14 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         zIndex: 2
     },
-    image: {
-        width: '100%',
-        height: '100%',
-   
-    },
     contentContainer: {
         width: '70%',
         height: 120,
         paddingHorizontal: 10
     },
     title: {
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontSize: 19
     },
     resume: {
 
